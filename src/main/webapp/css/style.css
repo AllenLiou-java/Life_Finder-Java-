@@ -1,0 +1,131 @@
+.contentArea{
+	width: 86%;
+	height: 600px;
+    text-align: center;
+    margin: 30px auto;
+    position: relative;
+}
+
+#mapTitle{
+    text-align: left;
+    font-size: larger;
+    font-family: '微軟正黑體','Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.underLine{
+    width: 350px;
+    border-top: #727272;
+    border-top-style: solid;
+    border-top-width: 4px;
+    margin-bottom: 10px;
+}
+
+
+
+#map{
+    width: 100%;
+    height: 100%;
+}
+
+
+.GeoBtn{
+	width: 30px;
+	height: 30px;
+	background-color: ivory;
+	
+	position: absolute;
+	top: 100px;
+	right: 10px;
+    border-radius: 20%;
+    z-index: 999;
+}
+
+
+/* marks標示 */
+.marker-cluster-small {
+    background-color: rgba(181, 226, 140, 0.6);
+    }
+    .marker-cluster-small div {
+    background-color: rgba(110, 204, 57, 0.6);
+    }
+    
+    .marker-cluster-medium {
+    background-color: rgba(241, 211, 87, 0.6);
+    }
+    .marker-cluster-medium div {
+    background-color: rgba(240, 194, 12, 0.6);
+    }
+    
+    .marker-cluster-large {
+    background-color: rgba(253, 156, 115, 0.6);
+    }
+    .marker-cluster-large div {
+    background-color: rgba(241, 128, 23, 0.6);
+    }
+    
+    .marker-cluster {
+    background-clip: padding-box;
+    border-radius: 20px;
+    }
+    .marker-cluster div {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+    text-align: center;
+    border-radius: 15px;
+    font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+    }
+    .marker-cluster span {
+    line-height: 30px;
+    }
+    
+    .container.leaflet-right {
+    right:0px;
+    }
+
+
+
+    /* Panel-popup */
+    .popupInfo p{
+        margin:0 !important;
+    }
+
+    .popupTitle{
+        font-size: 20px;
+        font-weight: 900;
+        color:#072e00;
+    }
+
+    .popupTitle span{
+        padding-left: 5px;
+    }
+
+    .popupInfo hr{
+        border:0.5px solid #072e00;
+    }
+    
+    
+  /* 站點狀態欄 */
+    .StopStatus ul{
+        padding-left: 10px;
+        list-style: none;
+    }
+
+    .StopStatus li{ 
+        display: inline-block;
+        margin-right: 20px;
+        list-style: none;
+    }
+
+    .StopStatus{
+        text-align: left;
+        margin: 15px 0px;
+        padding: 0px;
+
+    }
+    
+    
